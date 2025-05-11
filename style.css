@@ -1,3 +1,9 @@
+/* fonts downloaded */
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("./fonts/Norse-Bold.otf") format("truetype");
+}
+
 /* Apply box-sizing to all elements */
 * {
   margin: 0;
@@ -9,11 +15,6 @@ body {
   margin: 0;
   display: flex;
   height: 100vh;
-  font-family: "Arial", sans-serif;
-}
-
-body,
-html {
   font-family: "Arial", sans-serif;
 }
 
@@ -36,7 +37,12 @@ html {
 }
 .logo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.logo h1 {
+  font-family: "Norse-Bold", sans-serif;
+  font-size: 100px;
 }
 
 .logo img {
