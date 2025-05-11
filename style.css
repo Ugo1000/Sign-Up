@@ -63,7 +63,7 @@ html {
 }
 
 .sign-up-form {
-  /* background-color: red; */
+  background-color: white;
 }
 
 .sign-up-form h2 {
@@ -82,7 +82,8 @@ form h1 {
 }
 
 .form-group {
-  flex: 1;
+  flex: 5;
+  gap: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -95,7 +96,7 @@ label {
 
 input {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #e5e7eb;
   border-radius: 4px;
   width: 300px;
 }
@@ -105,16 +106,19 @@ input.error {
 }
 
 button {
-  background-color: #5d6c48;
+  background-color: #596d48;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 6px;
   font-size: 16px;
   margin-top: 20px;
-
-  margin-left: 30px;
   cursor: pointer;
+}
+
+button:hover {
+  color: yellowgreen;
+  background-color: red;
 }
 
 .login-link a {
@@ -123,6 +127,7 @@ button {
   font-weight: bold;
 }
 .login-link {
-  margin-top: 15px;
+  margin-top: 30px;
   font-size: 14px;
+  font-weight: 600;
 }
