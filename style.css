@@ -35,7 +35,17 @@ html {
   margin-right: 50px;
 }
 .logo {
-  /* bac */
+  display: flex;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 100px;
+}
+.photo-credit {
+  font-size: larger;
+  position: absolute;
+  bottom: 10%;
 }
 
 .right-panel {
