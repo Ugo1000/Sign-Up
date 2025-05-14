@@ -15,7 +15,7 @@ body {
   margin: 0;
   display: flex;
   font-family: "Arial", sans-serif;
-  height: 100vh;
+  height: 100%;
   background-color: whitesmoke;
 }
 
@@ -27,14 +27,14 @@ body {
 
 .left-panel {
   flex: 1;
-  background: url("img/project-image.jpg") no-repeat center/cover;
+  background: url("img/project-image.jpg") no-repeat center center;
+  background-size: 100%;
   position: relative;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 40vw; */
 }
 
 .logo {
@@ -45,7 +45,7 @@ body {
   flex-direction: row;
   color: white;
   justify-content: center;
-  background-color: rgb(0%, 10%, 1%);
+  background-color: rgba(0, 26, 2, 0.5);
 }
 
 .logo h1 {
@@ -59,7 +59,7 @@ body {
 .photo-credit {
   font-size: larger;
   position: absolute;
-  bottom: 4%;
+  bottom: 1%;
 }
 
 /* right-hand panel */
@@ -141,9 +141,6 @@ button {
 button:hover {
   color: yellowgreen;
   background-color: red;
-}
-
-.button-group {
 }
 
 .login-link a {
